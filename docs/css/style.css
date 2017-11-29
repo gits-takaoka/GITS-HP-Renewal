@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Pacifico);
+﻿@import url(https://fonts.googleapis.com/css?family=Pacifico);
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
 
@@ -175,7 +175,7 @@ section h2{
 /* SEC03 PRIVACY
 ------------------------------------------------------------*/
 #sec03{
-	background: url(../images/bgSec03.jpg) no-repeat 100% 100% fixed;
+	background: url(../images/bgSec03_bk50.jpg) no-repeat 100% 100% fixed;
 	background-size: cover;
 	-webkit-background-size: cover;
 	color: #fff;
