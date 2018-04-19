@@ -41,15 +41,15 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 	position: relative;
     overflow:hidden;
     width:100%;
-    height:568px;
+    height:568px; 
 }
 
 #header img{
-    position:absolute;
-    left:50%;
-    width:1280px;
-    height:568px;
-    margin-left:-640px;
+   position:absolute;
+   left:50%; 
+   width:1280px;
+   height:568px; 
+   margin-left:-640px; 
 }
 
 #slogan{
@@ -100,38 +100,30 @@ img{
 section{clear:both;}
 
 section h2{
-	font-size: 22px;
+	font-size: 24px;
 	font-weight:normal;
 	text-align: center;
 }
 
 section h3 {
-    font-size: 22px;
-    font-weight: normal;
+    font-size: 20px;
+    font-weight: bold;
     text-align: left;
-    margin-top: 22px;
+    margin-top: 25px;
 }
 
+section h4 {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 18px;
+}
 .inner{
-	width: 94%;
+	width: 100%;
 	margin: 0 auto;
 	padding-bottom: 50px;
 }
 
-.col2 li{
-	display: inline-block;
-	width: 100%;
-  	margin: 20px 0 20px 0;
-}
-.col2 dd{
-	display: inline-block;
-	width: 100%;
-  	margin: 20px 0 20px 0;
-}
-.col2 img{
-	display: inline-block;
-	width: 100%;
-}
 
 /* SEC01 MESSAGE
 ------------------------------------------------------------*/
@@ -151,31 +143,9 @@ section h3 {
 
 /* SEC02 PRODUCT
 ------------------------------------------------------------*/
-.col3 li{
-	margin-bottom: 50px;
-}
-
-.col3 img{
-	max-width: 288px;
-	display: block;
-	margin: -5px auto 20px;
-}
-
-.btn-products{
-	background:url("../image/btn-products.gif")
-}
-
-.col3 img{
-	max-width: 288px;
-	display: block;
-	margin: -5px auto 20px;
-}
-
-#sec02 span img {
-    width: 14%;
-    height: auto;
-    margin: 15px 0 40px 0;
-    display: block;
+#sec02{
+/*	padding-top: 20px; */
+	padding: 20px 20px 0 20px;
 }
 
 /* SEC03 PRIVACY
@@ -185,81 +155,72 @@ section h3 {
 	background-size: cover;
 	-webkit-background-size: cover;
 	color: #fff;
+	padding: 20px 20px 0 20px;
 }
 
+#sec03 h3{
+    font-size: 16px;
+    text-align: left;
+    margin: 25px 0 0 0;
+} 
 
 /* SEC04 COMPANY
 ------------------------------------------------------------*/
 #sec04{
-	padding-top: 50px;
+	padding: 20px 30px 0 20px;
+}
+#sec04 table { width: 100%; }
+
+#sec04 th, td  { padding: 10px; border:1px solid #666; 
 }
 
-#sec04 dd{	
-	line-height: 1.2em;
-}
+#sec04 th  { background: #f6f6f6;  text-align: center; }
 
-#sec04 dt{
-	clear: left;
-	float: left;
-	display: block;
-	width: 35%;
-	margin-right: 5%;
-	margin-bottom: 15px;
-	text-align: right;
-	line-height: 1.6em;
-}
-
-#sec04 dd{
-	width: 60%;
-	float: left;
-	text-align: left;
-	margin-bottom: 15px; 
-	line-height: 1.6em;
-}
-#sec04 span img{
-	width: 5%;
-	height: auto;
-	display: inner;
-}
 
 .company-name {
 }
 .company-name img {
-
 }
-
-/*
-#sec04 map{
-	position: relative;
-	padding-bottom: 75%;
-	height: 0;
-	overflow: hidden;
-}
-
-#map iframe{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100% !important;
-	height: 100% !important;
-	border: 0;
-} */
 
 /* SEC05 ACCESS
 ------------------------------------------------------------*/
+
 #sec05{
-	padding-top: 50px;
+	padding: 20px 30px 0 20px;
+	margin-bottom:30px;
 }
-#map{
-	position: relative;
-	padding-bottom: 75%;
-	height: 0;
-	overflow: hidden;
-	margin-bottom: 50px;
+table { 
+	width: 100%; 			/* テーブルの横幅を指定する */
+	}
+table th, table td	{ 
+	padding: 10px; 			/* セルの余白を指定する(上下左右) */
+	border: 1px solid #666;	/* セルの境界線を実線で指定する */
+}
+table th	{ 
+	background-color: #f6f6f6;	/* ボックスの背景色を指定する */
+	width: 30%; 			/* テーブルの見出しの横幅を指定する */
+	text-align: center;		/* セル内のテキストの位置を指定（真ん中）する */
+}
+#sec05 span{
+    font-weight: normal;
+	font-size: 90%;
 }
 
-#map img{
-	margin-bottom: 20pt
+---------------------
+
+.wrap{
+	clear: both;
+	width: 	100%;
+	background: #f6f6f6;
+	
+}
+
+.bg{
+	line-height: 0;
+}
+
+.txt h2{
+	padding: 0 0 20px !important;
 }
 
 
@@ -311,7 +272,7 @@ section h3 {
 		font-weight: 300;
 	}
 	
-  #mainnav a{
+ 	#mainnav a{
 		color: #fff;
 		font-weight: bold;
 	}
@@ -346,47 +307,51 @@ section h3 {
 	
 	/* SEC02 PODUCT
 	-----------------*/
-	.col3{
-		text-align: center;
-	}
-
-	.col3 li{
-		display: inline-block;
-/*		width: 30%; */
-		width: 40%;
-		padding: 0 1.5%;
-		margin-bottom: 0;
-		vertical-align: top;
-		text-align: left;
-	}
 	
 	/* SEC04 COMPANY
 	-----------------*/
-	#sec05{
-		padding-top: 120px;
-	}
-	
+
+	/* SEC05 ACCESS
+	-----------------*/
+
+
+}
+
   #footer{
 		padding: 30px 10px 70px 0;
 	}
 }
 
 @media only screen and (min-width: 641px){
-	.col2 li{
+/*	.col2 li{
 		width: 40%;
 		padding: 0 3%;
 		vertical-align: top;
-	}
+	} */
+
+
+
 }
 
-@media only screen and (max-width: 640px){
+@media only screen and (max-width: 480px){
 	#map iframe{
 	  width: 96% !important;
 		left: 2%;
 	}
+
+@media only screen and (max-width:480px){
+	table {
+		margin: 10px 5px; 	/* テーブルの余白を指定する */
+	}
+	table th, table td {
+		width: 90%;			/* テーブルの見出しの横幅を指定する */
+		display: block;		/* ブロックレベル要素化する */ 
+		border-top: 1px solid #666;	/* セルの境界線を実線で指定する */
+	}
 }
 
 @media only screen and (max-width: 799px){
+
 	#slogan h1{
 		font-size: 31px;
 	}
@@ -500,11 +465,6 @@ section h3 {
 		border-right: solid 2px #000;
 		-webkit-transform: rotate(45deg);
 		transform: rotate(45deg);
-	}
-	.col3 li{
-		margin: 0 auto;
-		display: block;
-	max-width: 288px;
 	}
 }
 
